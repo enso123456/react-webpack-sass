@@ -1,0 +1,13 @@
+@import 'partials/variables';
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 340px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $medium) {
+    max-width: 1200px;
+  }
+}

@@ -1,0 +1,28 @@
+.btn {
+  outline: 0;
+  line-height: 1;
+  font-size: 1.7rem;
+  font-family: "Roboto",sans-serif;
+  cursor: pointer;
+  border-radius: 4rem;
+  background: transparent;
+  padding: 10px 30px;
+  display: inline-block;
+  position: relative;
+  border: .2rem solid #ec008c;
+  
+  .fas {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+
+  &:hover {
+    .fas {
+      -webkit-transform: rotateZ(720deg);
+      -moz-transform: rotateZ(720deg);
+      transform: rotateZ(720deg);
+    }
+  }
+}
